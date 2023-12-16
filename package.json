@@ -1,0 +1,31 @@
+{
+  "name": "claudia2",
+  "private": true,
+  "version": "1.0.0",
+  "description": "toe to toe with the devil holding my rose in the pale moonlight",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "deploy": "claudia create --version dev --region us-east-1 --api-module bot",
+    "release": "claudia set-version --version production",
+    "start": "ntl"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "claudia-bot-builder": "^4.5.0"
+  },
+  "devDependencies": {
+    "claudia": "^5.14.1",
+    "jest": "^29.7.0",
+    "ntl": "^5.1.0"
+  },
+  "ntl": {
+    "descriptions": {
+      "build": "Builds the project",
+      "coverage": "Run test outputting code coverage",
+      "test": "Run project's tests"
+    }
+  }
+}
