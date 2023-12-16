@@ -8,4 +8,3 @@ exports.handler = function (event, context) {
 };
 
 
-// okay not bad progress today - I have a working lambda function that can be called from the browser

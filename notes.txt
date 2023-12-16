@@ -1,0 +1,4 @@
+// / okay not bad progress today - I have a working lambda function that can be called from the browser
+
+// add huh next time :) 
+// we also now need to set up the api gateway to call the lambda function
